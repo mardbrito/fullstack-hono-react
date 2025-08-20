@@ -1,0 +1,15 @@
+GET http://localhost:3000/api/expenses
+
+###
+
+POST http://localhost:3000/api/expenses HTTP/1.1
+content-type: application/json
+
+{
+    "id": 4,
+    "title": "Sample",
+    "amount": 13
+}
+###
+
+DELETE  http://localhost:3000/api/expenses/3
